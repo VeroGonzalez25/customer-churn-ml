@@ -1,0 +1,11 @@
+# Python & entorno
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Datos y modelos pesados (se gestionan con DVC / MLflow)
+data/raw/*
+data/processed/*
+models/*.joblib
+models/*.pkl
