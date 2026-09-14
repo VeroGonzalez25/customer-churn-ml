@@ -6,6 +6,7 @@ __pycache__/
 
 # Datos y modelos pesados (se gestionan con DVC / MLflow)
 data/raw/*
+!data/raw/*.dvc
 data/processed/*
 models/*.joblib
 models/*.pkl
